@@ -15,7 +15,8 @@ jobs:
         run: |
           npm ci
           npm run build
-          sudo cp action.yml /dist
+          sudo cp action.yml ./dist
+          ls -l ./dist
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
