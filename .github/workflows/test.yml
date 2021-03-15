@@ -1,8 +1,9 @@
 name: Test action
 on:
-  push:
-    branches:
-      - build
+  workflow_run:
+    workflows: ["Build and Deploy"]
+    types:
+      - completed
 
 jobs:
   hello_world_test_job:
