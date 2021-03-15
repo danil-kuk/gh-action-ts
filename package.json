@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-javascript-action",
+  "name": "gh-action-ts",
   "version": "1.0.0",
   "description": "",
   "main": "dist/bundle.js",
@@ -7,12 +7,6 @@
     "start": "ts-node ./src/index.ts",
     "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/danil-kuk/hello-world-javascript-action/issues"
-  },
-  "homepage": "https://github.com/danil-kuk/hello-world-javascript-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",

@@ -20,6 +20,8 @@ jobs:
         id: hello
         with:
           who-to-greet: 'Mona the Octocat'
+        env:
+          MY_VAR: "My test env variable"
 
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
